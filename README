@@ -1,0 +1,30 @@
+Introduction:
+
+Scroller Menu is simple JavaScript driven menu, which can be used to scroll to any part of a page with 
+any speed you choose, the menu moves with the scroll direction. Scroller Menu is written on top of 
+jQuery JavaScript library. 
+
+Futures 
+* Easy to integrate within the sidebar or body of existing websites 
+* Tested  on IE 6 , 7 ,8 and Firefox 
+* Simple and clean  
+* Easy to customize 
+* Total control on scroll speed 
+
+Usage:
+
+1. Add the scrollerMenu.js file and copy the menu style from css/style.css into your existing stylesheet. 
+2. Reference the scrollerMenu.js in your existing page : 
+<script type="text/javascript" src="js/scrollerMenu.js"></script>
+
+3. Add the menu. 
+Example: 
+	<div id="scrollerMenu"> 
+		<ul> 
+			<li><a href="#home" id="goHome">Home</a></li> 
+			<li><a href="#services" id="goServices">Services</a></li> 
+			<li><a href="#portfolio" id="goPortfolio">Portfolio</a></li> 
+			<li><a href="#contact" id="goContact">Contact</a></li> 
+		</ul>
+	</div> 
+4. Add the corresponding sections within DIVs and with IDs that mach the ones in the href attribute in the menu links (check the demo to see a live example). 

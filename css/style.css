@@ -1,0 +1,24 @@
+/* Menu styling */
+
+#scrollerMenu {
+			   	position:absolute;
+			   	top:100px;
+			   	left:-80px;
+			   	width:200px;
+			  }
+
+#scrollerMenu ul {
+					position:relative;
+					list-style:none;
+					float:right;
+					font-size: 30px;
+				}
+				
+#scrollerMenu ul li{ padding: 0 0 15px 10px; }
+
+#scrollerMenu ul li a{ color:#19537B; text-decoration:none; }
+
+#scrollerMenu ul li a:hover{ color:#FFF; }
+
+#scrollerMenu ul li a.current { color: #FFF }
+

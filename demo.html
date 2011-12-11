@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title>Scroller Menu demo</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+		<script type="text/javascript" src="js/scrollerMenu.js"></script>
+		<style>
+/* General declarations used in the demo page (you don't need theses it is used only in the Demo)*/
+
+body { margin: 0 ; padding: 0 ; background: #001220; }
+
+#wraper {
+			background: #001220;
+			min-width: 780px;
+			max-width: 1260px;
+			margin: 0 auto;
+			padding-top: 0px;
+		}
+
+p 	{ 
+		color: #89B5C6; 
+		margin: 0 ; 
+		padding: 20px 100px 20px 150px ; 
+		font-family: Cambria, serif;
+		font-size: 16px;
+		font-style: italic;
+		font-weight: normal;
+		text-transform: normal;
+		letter-spacing: normal;
+		line-height: 1.5em;
+	}
+
+h3 { 
+		margin : 0 ; 
+		padding : 0 ; 
+		color: #FFF; 
+		padding-left: 150px ; 
+		color:#93D43B ; 
+		font-family: Arial,Helvetica,sans-serif;
+	}
+
+/* END General declarations */
+		</style>
+	</head>
+	<body>
+		<div id="wraper">
+			<div id="scrollerMenu">
+				<ul>
+					<li><a href="#home" id="goHome">Home</a></li>
+					<li><a href="#services" id="goServices">Services</a></li>
+					<li><a href="#portfolio" id="goPortfolio">Portfolio</a></li>
+					<li><a href="#contact" id="goContact">Contact</a></li>
+				</ul>
+			</div>
+			
+			<div id="home">
+				<h3>Home</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel sem nec nunc lacinia pulvinar. Etiam scelerisque nibh id tortor interdum convallis. Quisque et tincidunt nunc. Proin nec orci lacus, eu auctor arcu. Nam consectetur nulla in nulla iaculis in varius lacus convallis. Donec nec ultricies nibh. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc vestibulum dignissim porta. Ut at nisl nec lacus molestie vulputate a quis quam. Quisque vel orci quis odio ultrices faucibus in a eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla fermentum dui id turpis euismod sed placerat lorem laoreet. Cras dictum euismod ipsum ac condimentum. Nullam pellentesque ullamcorper mi eget ornare. Mauris sagittis justo sed quam elementum dapibus. 
+					Nullam et mi facilisis justo gravida eleifend ut id arcu. Aenean viverra rutrum facilisis. Phasellus sed libero nec elit cursus commodo. Ut sit amet magna ac dolor lacinia volutpat at commodo lectus. Nunc mauris nulla, fringilla quis facilisis at, elementum vel ipsum. Sed et nisl sapien, eu commodo sem. Nunc dictum pharetra posuere. Donec ante mi, mattis et tincidunt nec, porttitor ac elit. Praesent mollis pellentesque varius. Nam vestibulum, elit ac ultricies dignissim, lacus tortor varius arcu, ac tristique lacus arcu ut dolor. Sed diam mauris, pellentesque at eleifend eu, lobortis vehicula velit. Phasellus quis consequat sem. Nunc feugiat fringilla nisl, vel dictum sapien ultricies id.
+					Integer congue turpis quis metus dictum laoreet sodales odio dapibus. Morbi blandit interdum malesuada. Aenean nec lorem arcu, ac tristique nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id eros in dui cursus condimentum sed vel orci. Pellentesque quis massa id libero tristique imperdiet consectetur vel tortor. Nam et nisi sapien, vel scelerisque nisi. Pellentesque ultricies adipiscing imperdiet. Fusce mollis viverra erat sed tempus. Aenean viverra rutrum facilisis. Phasellus sed libero nec elit cursus commodo. Ut sit amet magna ac dolor lacinia volutpat at commodo lectus. Nunc mauris nulla, fringilla quis facilisis at, elementum vel ipsum. Sed et nisl sapien, eu commodo sem. Nunc dictum pharetra posuere. Donec ante mi, mattis et tincidunt nec, porttitor ac elit. Praesent mollis pellentesque varius. Nam vestibulum, elit ac ultricies dignissim,Cras ullamcorper sagittis ante id imperdiet.
+				</p>
+			</div>
+			<div id="services">
+				<h3>Services</h3>
+				<p>Nullam et mi facilisis justo gravida eleifend ut id arcu. Aenean viverra rutrum facilisis. Phasellus sed libero nec elit cursus commodo. Ut sit amet magna ac dolor lacinia volutpat at commodo lectus. Nunc mauris nulla, fringilla quis facilisis at, elementum vel ipsum. Sed et nisl sapien, eu commodo sem. Nunc dictum pharetra posuere. Donec ante mi, mattis et tincidunt nec, porttitor ac elit. Praesent mollis pellentesque varius. Nam vestibulum, elit ac ultricies dignissim, lacus tortor varius arcu, ac tristique lacus arcu ut dolor. Sed diam mauris, pellentesque at eleifend eu, lobortis vehicula velit. Phasellus quis consequat sem. Nunc feugiat fringilla nisl, vel dictum sapien ultricies id.
+Integer congue turpis quis metus dictum laoreet sodales odio dapibus. Morbi blandit interdum malesuada. Aenean nec lorem arcu, ac tristique nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id eros in dui cursus condimentum sed vel orci. Pellentesque quis massa id libero tristique imperdiet consectetur vel tortor. Nam et nisi sapien, vel scelerisque nisi. Pellentesque ultricies adipiscing imperdiet. Fusce mollis viverra erat sed tempus. Cras ullamcorper sagittis ante id imperdiet. 
+Integer enim quam, tempus in tincidunt a, ornare vitae nibh. Nunc hendrerit dictum dui eu ultricies. Nullam a ligula diam, sit amet sagittis nulla. Aenean aliquet, enim vitae tristique venenatis, mi augue adipiscing lacus, ut vestibulum diam velit eget turpis. Ut non tempor purus. ornare vitae nibh. Nunc hendrerit dictum dui eu ultricies. Nullam a ligula diam, sit amet sagittis nulla. Aenean aliquet, enim vitae tristique venenatis.Morbi eget nulla purus. Nullam porttitor quam ut felis tincidunt nec fringilla lorem congue. Fusce facilisis, purus et pretium lacinia, nisl tellus aliquam arcu, ac varius leo metus vel mi. Nunc auctor orci sit amet nisl eleifend at dapibus arcu lacinia. Duis hendrerit posuere vestibulum. Fusce feugiat facilisis enim, vel varius nisl volutpat sed.ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam felis nisl, posuere sit amet pretium non, scelerisque in dolor. Vestibulum commodo est mattis odio tristique nec lobortis dolor eleifend. Maecenas ut erat malesuada est viverra feugiat in quis orci. Suspendisse urna augue, tincidunt quis venenatis quis, tempor in orci. Aenean leo est, adipiscing at tristique id, iaculis non purus. Phasellus hendrerit aliquet accumsan.
+</p>
+			</div>
+			<div id="portfolio">
+				<h3>Portfolio</h3>
+				<p>Integer enim quam, tempus in tincidunt a, ornare vitae nibh. Nunc hendrerit dictum dui eu ultricies. Nullam a ligula diam, sit amet sagittis nulla. Aenean aliquet, enim vitae tristique venenatis, mi augue adipiscing lacus, ut vestibulum diam velit eget turpis. Ut non tempor purus. Morbi eget nulla purus. Nullam porttitor quam ut felis tincidunt nec fringilla lorem congue. Fusce facilisis, purus et pretium lacinia, nisl tellus aliquam arcu, ac varius leo metus vel mi. Nunc auctor orci sit amet nisl eleifend at dapibus arcu lacinia. Duis hendrerit posuere vestibulum. Fusce feugiat facilisis enim, vel varius nisl volutpat sed. Nullam sollicitudin, odio fringilla volutpat aliquam, mi lectus lobortis erat, sed accumsan velit ipsum vel metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam felis nisl, posuere sit amet pretium non, scelerisque in dolor. Vestibulum commodo est mattis odio tristique nec lobortis dolor eleifend. Maecenas ut erat malesuada est viverra feugiat in quis orci. Suspendisse urna augue, tincidunt quis venenatis quis, tempor in orci. Aenean leo est, adipiscing at tristique id, iaculis non purus. Phasellus hendrerit aliquet accumsan. 
+				Integer enim quam, tempus in tincidunt a, ornare vitae nibh. Nunc hendrerit dictum dui eu ultricies. Nullam a ligula diam, sit amet sagittis nulla. Aenean aliquet, enim vitae tristique venenatis, mi augue adipiscing lacus, ut vestibulum diam velit eget turpis. Ut non tempor purus. Morbi eget nulla purus. Nullam porttitor quam ut felis tincidunt nec fringilla lorem congue. Fusce facilisis, purus et pretium lacinia, nisl tellus aliquam arcu, ac varius leo metus vel mi. Nunc auctor orci sit amet nisl eleifend at dapibus arcu lacinia. Duis hendrerit posuere vestibulum. Fusce feugiat facilisis enim, vel varius nisl volutpat sed. Nullam sollicitudin, odio fringilla volutpat aliquam, mi lectus lobortis erat, sed accumsan velit ipsum vel metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam felis nisl, posuere sit amet pretium non, scelerisque in dolor. Suspendisse urna augue, tincidunt quis venenatis quis, tempor in orci. Aenean leo est, adipiscing at tristique id, iaculis non purus. Phasellus hendrerit aliquet accumsan.
+				</p>
+			</div>
+			<div id="contact">
+				<h3>Contact</h3>
+				<p>Sed purus sem, euismod in sagittis eu, sodales malesuada elit. Cras vel sem nunc, quis iaculis odio. Curabitur eleifend laoreet ligula, nec feugiat turpis facilisis at. Mauris et turpis ipsum. Nullam adipiscing, turpis a varius sagittis, ipsum felis accumsan ligula, nec pharetra libero ante quis lorem. Maecenas gravida nibh eu sem dictum mattis. Suspendisse adipiscing dui in dolor rutrum a auctor purus gravida. Aenean nibh nunc, ullamcorper non pharetra a, interdum a leo. Vestibulum eu mi neque, vitae aliquet lorem. Morbi ac nisl vitae purus sollicitudin venenatis euismod quis nibh. Maecenas ac mi eu nisi varius eleifend. Nullam vel odio nunc. Donec vitae nisi arcu. Mauris dictum eros vestibulum mauris pulvinar at adipiscing tortor hendrerit. Morbi faucibus laoreet neque, non venenatis neque aliquam id. 
+				Integer enim quam, tempus in tincidunt a, ornare vitae nibh. Nunc hendrerit dictum dui eu ultricies. Nullam a ligula diam, sit amet sagittis nulla. Aenean aliquet, enim vitae tristique venenatis, mi augue adipiscing lacus, ut vestibulum diam velit eget turpis. Ut non tempor purus. Morbi eget nulla purus. Nullam porttitor quam ut felis tincidunt nec fringilla lorem congue. Fusce facilisis, Cras vel sem nunc, quis iaculis odio. Curabitur eleifend laoreet ligula, nec feugiat turpis facilisis at. Mauris et turpis ipsum. Nullam adipiscing, turpis a varius sagittis, ipsum felis accumsan ligula, nec pharetra libero ante quis lorem. Maecenas gravida nibh eu sem dictum mattis. Suspendisse adipiscing dui in dolor rutrum a auctor purus gravida.purus et pretium lacinia, nisl tellus aliquam arcu, ac varius leo metus vel mi. Nunc auctor orci sit amet nisl eleifend at dapibus arcu lacinia. Duis hendrerit posuere vestibulum. Fusce feugiat facilisis enim, vel varius nisl volutpat sed. Nullam sollicitudin, odio fringilla volutpat aliquam, mi lectus lobortis erat, sed accumsan velit ipsum vel metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam felis nisl, posuere sit amet pretium non, scelerisque in dolor. Vestibulum commodo est mattis odio tristique nec lobortis dolor eleifend. Maecenas ut erat malesuada est viverra feugiat in quis orci. Suspendisse urna augue, tincidunt quis venenatis quis, tempor in orci. Aenean leo est, adipiscing at tristique id, iaculis non purus. Phasellus hendrerit aliquet accumsan.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
